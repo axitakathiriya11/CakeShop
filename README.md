@@ -1,8 +1,6 @@
 # MERN Stack - Cake shop
 > Cake shop website built with the MERN stack with React Context API for state management, pure CSS for style
 
-## Demo: https://cakeshopmern.herokuapp.com/
-
 ## Author: Axita Kathiriya
 
 ## Install dependencies for server 
