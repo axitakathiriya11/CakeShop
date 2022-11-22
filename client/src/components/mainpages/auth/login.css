@@ -1,0 +1,57 @@
+.login-page {
+  max-width: 500px;
+  border: 2px solid #e5bf4a;
+  border-radius: 5px;
+  padding: 30px;
+  color: white;
+  margin: 50px auto;
+}
+.login-page h2 {
+  margin-bottom: 10px;
+  color: white;
+}
+.login-page form .input,
+.login-page form button {
+  width: 100%;
+  height: 40px;
+  margin: 10px 0;
+  padding: 0 5px;
+  color: black;
+  outline: #e5bf4a;
+  border: 1px solid #e5bf4a;
+}
+.login-page form .row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.login-page form button {
+  width: 150px;
+  background-color: #e5bf4a;
+  background: #e5bf4a;
+  color: black;
+  text-transform: uppercase;
+}
+
+.login-page form button:hover {
+  width: 150px;
+  background: black;
+  color: #e5bf4a;
+}
+
+.login-page form a {
+  color: #e5bf4a;
+  text-transform: uppercase;
+}
+
+
+.role {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.role input{
+  width: 20px;
+  margin: 0 10px;
+}

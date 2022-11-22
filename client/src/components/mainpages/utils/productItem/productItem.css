@@ -1,0 +1,132 @@
+.product_card{
+    max-width: 450px;
+    overflow: hidden;
+    height: 400px;
+    padding: 15px;
+    margin: 10px 0;
+    position: relative;
+}
+.product_card img{
+    width: 100%;
+    height: 300px;
+    display: block;
+    object-fit: cover;
+}
+.product_box h2{
+    width: 100%;
+    margin-top: 10px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+    text-transform: capitalize;
+    cursor: pointer;
+    color: white;
+}
+
+.checkbox {
+    z-index: 1;
+    margin: 10px 0 0 10px;
+    float: right;
+}
+
+.product_box p{
+    width: 100%;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+    height: 70px;
+    overflow: hidden;
+    color: white;
+}
+.row_btn{
+    width: 100%;
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+.row_btn a{
+    width: 50%;
+    text-align: center;
+    color: white;
+    padding: 6px;
+}
+#btn_buy{
+    background-color: #e5bf4a;
+    color: black;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+#btn_view{
+    float: right;
+    background-color: #e5bf4a;
+    color: black;
+    margin: 0 20px;
+    border-radius: 5px;
+}
+.product_card input{
+    position: absolute;
+    width: 25px;
+    height: 25px;
+}
+
+.product_card img:hover .img-cap {
+    opacity: 1;
+    visibility: visible;
+}
+
+.product_card .item {
+    position: relative;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.7);
+}
+
+.product_card .item span {
+    color: black;
+}
+
+.product_card .item img {
+    vertical-align: middle;
+    transition: transform .4s;
+}
+
+.product_card .img-cap {
+    margin: 0;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    text-align: center;
+    width: 100%;
+    max-height: 100%;
+    overflow: auto;
+    box-sizing: border-box;
+    transition: transform 0.8s;
+    transform: translateY(100%);
+    background: #e5bf4a;
+    color: black;
+}
+
+.product_card .item:hover img {
+    transform: scale(1.1);
+}
+
+.product_card .item:hover .img-cap {
+    transform: translateY(0%);
+}
+
+.product_box span {
+    color: #e5bf4a;
+}
+
+.product_card .row_btn {
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+    margin-bottom: 10px;
+    text-align: center;
+    overflow: auto;
+    box-sizing: border-box;
+    color: black;
+}

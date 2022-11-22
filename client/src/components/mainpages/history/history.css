@@ -1,0 +1,45 @@
+.history{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.history-page{
+    width: 60%;
+    overflow-x: auto;
+}
+.history-page h2, h4{
+    text-align: center;
+    margin: 20px;
+}
+.history-page table{
+    margin-top: 20px;
+    width: 100%;
+    border-radius: 5px;
+}
+.history-page table,th,tr,td{
+    border: 1px solid black;
+    background-color: white;
+    border-collapse: collapse;
+    color: black;
+}
+th, td{
+    text-align: center;
+    padding: 10px;
+    text-transform: capitalize;
+}
+table a{
+    color: blue;
+}
+
+.history-page img{
+    width: 70px;
+    height: 100px;
+    object-fit: cover;
+}
+
+th {
+    background-color: #e5bf4a;
+    color: black;
+    font-size: larger;
+    font-weight: bolder;
+}
